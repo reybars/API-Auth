@@ -6,8 +6,8 @@ const port = 3000;
 const API_URL = "https://secrets-api.appbrewery.com/";
 
 //TODO 1: Fill in your values for the 3 types of auth.
-const yourUsername = "dongbars";
-const yourPassword = "admin123";
+const yourUsername = "your_username";
+const yourPassword = "your_password";
 const encodedCredentials = Buffer.from(`${yourUsername}:${yourPassword}`).toString('base64');
 const yourAPIKey = "faac04e6-5d94-4f9a-89b7-39fb3593d697";
 const yourBearerToken = "eadff2e4-cd5b-43f1-88c8-ac4c15aa45c5";
